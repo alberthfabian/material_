@@ -1,0 +1,105 @@
+body {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    margin: 0;
+    width: 100vw;
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: white;
+    position: relative;
+    font-size: 20px;
+}
+
+h1 {
+    margin: 0;
+    color: white;
+
+    width: 100%;
+    height: 20%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+h2 {
+    font-size: .8rem;
+    color: white;
+
+    width: 100%;
+    height: 30%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+  font-weight: bold;
+  font-size: 0.85em;
+  position: absolute;
+  padding-top: 15px;
+
+  top: 0;
+}
+
+menu {
+    width: 100vw;
+    height: 50vh;
+    padding: 1em;
+    margin: 2px;
+    background-color: #4caf50;
+    border-radius: 10px;
+    clip-path: circle(3% at 50% 3%);
+    transition: all .5s ease-in-out;
+    cursor: pointer;
+}
+
+menu ul{
+    width: 100%;
+    height: 20%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+menu p{
+    width: 100%;
+    height: 20%;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+menu:hover {
+    clip-path: circle(15% at 50% 3%);
+    background-color: #3594a5;
+}
+
+
+
+menu:hover span {
+    color: #3594a5;
+}
+
+article {
+    padding: 0 20px;
+    text-align: center;
+}
